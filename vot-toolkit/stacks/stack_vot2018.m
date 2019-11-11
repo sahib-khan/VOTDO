@@ -7,7 +7,7 @@ baseline.converter = [];
 baseline.type = 'supervised';
 baseline.tags = {'camera_motion', 'illum_change', 'occlusion', 'size_change', 'motion_change', 'empty'};
 
-baseline.parameters.repetitions = 15;
+baseline.parameters.repetitions = 6;
 baseline.parameters.burnin = 10;
 baseline.parameters.skip_initialize = 5;
 baseline.parameters.failure_overlap = 0;

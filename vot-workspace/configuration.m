@@ -1,6 +1,6 @@
 
 set_global_variable('workspace_path', fileparts(mfilename('fullpath')));
-set_global_variable('trax_timeout',10000)
+set_global_variable('trax_timeout', 10000);
 set_global_variable('version', 7);
 
 % Enable more verbose output
@@ -10,4 +10,4 @@ set_global_variable('debug', 1);
 % set_global_variable('cache', 0);
 
 % Select experiment stack
-set_global_variable('stack', 'votlt2018');
+set_global_variable('stack', 'vot2018');
